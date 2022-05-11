@@ -664,7 +664,7 @@ void run_calibration(int module_id = -1, int asic_id = -1, int channel_id = -1, 
 
 	// If we have the default values of -1 run for all data  
 	if (module_id == -1 && asic_id == -1 && channel_id == -1) {
-		i_start = 0; i_end = 3; j_start = 0; j_end = 6; k_start = 0; k_end = 128;
+		i_start = 0; i_end = 4; j_start = 0; j_end = 6; k_start = 0; k_end = 128;
 		// Else run for specified module_id, asic_id, and channel_id  
 	}
 	else {
